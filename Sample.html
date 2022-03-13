@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> 
+            input[type=text] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              box-sizing: border-box;
+              border: 3px solid #ccc;
+              -webkit-transition: 0.5s;
+              transition: 0.5s;
+              outline: none;
+            }
+            
+            input[type=text]:focus {
+              border: 3px solid #555;
+            }
+
+            /* th, td */
+            table { 
+            /* border: 1px solid black; */
+            /* width: 100px;
+            height: 80px; */
+            width: 100%;
+            height: 50%;
+            } 
+            </style>
+    </head>
+<table>
+    <tr>
+        <th colspan="2"><label for="example">Company</label></th>
+    </tr>
+    <tr>
+        <td><label for="company">Company Name</label></td>
+        <td><input type="text" id="company" name="company" value="Company_X"></td>
+    </tr>
+    <tr>
+        <td><label for="employee">Employee Name</label></td>
+        <td><input type="text" id="employee" name="employee" value="Employee_X"></td>
+    </tr>
+  </table>
+</body>
+</html>
